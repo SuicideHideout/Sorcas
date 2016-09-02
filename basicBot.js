@@ -99,7 +99,7 @@
     var loadChat = function (cb) {
         if (!cb) cb = function () {
         };
-        $.get("https://rawgit.com/SuicideHideout/saltinis/master/lang/langIndex.json", function (json) {
+        $.get("https://rawgit.com/SuicideHideout/Sorcas/master/lang/langIndex.json", function (json) {
             var link = basicBot.chatLink;
             if (json !== null && typeof json !== "undefined") {
                 langIndex = json;
@@ -240,18 +240,18 @@
         status: false,
         name: "basicBot",
         loggedInID: null,
-        scriptLink: "https://rawgit.com/SuicideHideout/saltinis/master/basicBot.js",
+        scriptLink: "https://rawgit.com/SuicideHideout/Sorcas/master/lang/en.json",
         cmdLink: "http://git.io/245Ppg",
-        chatLink: "https://rawgit.com/SuicideHideout/saltinis/master/lang/en.json",
+        chatLink: "https://rawgit.com/SuicideHideout/Sorcas/master/lang/en.json",
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
         retrieveFromStorage: retrieveFromStorage,
         settings: {
-            botName: "SuicideBotas",
+            botName: "MuzikaHD",
             language: "english",
-            chatLink: "https://rawgit.com/SuicideHideout/saltinis/master/lang/en.json",
-            scriptLink: "https://rawgit.com/SuicideHideout/saltinis/master/basicBot.js",
+            chatLink: "https://rawgit.com/SuicideHideout/Sorcas/master/lang/en.json",
+            scriptLink: "https://rawgit.com/SuicideHideout/Sorcas/edit/master/basicBot.js",
             roomLock: false, // Requires an extension to re-load the script
             startupCap: 1, // 1-200
             startupVolume: 0, // 0-100
