@@ -1,4 +1,4 @@
-var lol = "<canvas style='height:100%;width:100$;'></canvas>"
+var lol = "<canvas style='height:100%;width:100$;'></canvas>";
   var ParticleSystem = function(container, center, count) {
     var i = 0,
         c = container.getContext('2d');
